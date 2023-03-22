@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
@@ -604,6 +605,11 @@ namespace TrainEditor2.Views
 
 					glControlMotor.MakeCurrent();
 					break;
+			}
+
+			// Force kill the editor under mono, on some system it hangs.
+			if(Program.CurrentHost.MonoRuntime) {
+				Process.GetCurrentProcess().Kill();
 			}
 
 			Interface.CurrentOptions.LanguageCode = app.CurrentLanguageCode.Value;

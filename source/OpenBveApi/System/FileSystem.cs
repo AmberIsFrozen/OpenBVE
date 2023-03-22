@@ -109,7 +109,7 @@ namespace OpenBveApi.FileSystem {
 			this.TrainInstallationDirectory = OpenBveApi.Path.CombineDirectory(OpenBveApi.Path.CombineDirectory(userDataFolder, "LegacyContent"), "Train");
 			this.OtherInstallationDirectory = OpenBveApi.Path.CombineDirectory(OpenBveApi.Path.CombineDirectory(userDataFolder, "LegacyContent"), "Other");
 			this.LoksimPackageInstallationDirectory = OpenBveApi.Path.CombineDirectory(OpenBveApi.Path.CombineDirectory(userDataFolder, "ManagedContent"), "Loksim3D");
-			if (currentHost.Platform == HostPlatform.MicrosoftWindows)
+			if (currentHost != null && currentHost.Platform == HostPlatform.MicrosoftWindows)
 			{
 				try
 				{

@@ -335,6 +335,42 @@ namespace TrainEditor2.Views
 			labelDelayPower.Text = $@"{Utilities.GetInterfaceString("car_settings", "delay", "power")}:";
 			labelDelayBrake.Text = $@"{Utilities.GetInterfaceString("car_settings", "delay", "brake")}:";
 			labelDelayLocoBrake.Text = $@"{Utilities.GetInterfaceString("car_settings", "delay", "loco_brake")}:";
+			labelDelayElectricBrake.Text = $@"{Utilities.GetInterfaceString("car_settings", "delay", "electric_brake")}:";
+
+			tabPageDigitalGauge.Text = Utilities.GetInterfaceString("panel_settings", "digital_gauge", "name");
+			labelDigitalGaugeSubject.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "subject")}:";
+			labelDigitalGaugeLocationX.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "location", "x")}:";
+			labelDigitalGaugeLocationY.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "location", "y")}:";
+			labelDigitalGaugeRadius.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "radius")}:";
+			labelDigitalGaugeColor.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "color")}:";
+			labelDigitalGaugeInitialAngle.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "initial_angle")}:";
+			labelDigitalGaugeLastAngle.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "last_angle")}:";
+			labelDigitalGaugeMinimum.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "minimum")}:";
+			labelDigitalGaugeMaximum.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "maximum")}:";
+			labelDigitalGaugeStep.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "step")}:";
+			labelDigitalGaugeLayer.Text = $@"{Utilities.GetInterfaceString("panel_settings", "digital_gauge", "layer")}:";
+
+			tabPageLinearGauge.Text = Utilities.GetInterfaceString("panel_settings", "linear_gauge", "name");
+			labelLinearGaugeSubject.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "subject")}:";
+			labelLinearGaugeLocationX.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "location", "x")}:";
+			labelLinearGaugeLocationY.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "location", "y")}:";
+			labelLinearGaugeDaytimeImage.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "daytime_image")}:";
+			labelLinearGaugeNighttimeImage.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "nighttime_image")}:";
+			labelLinearGaugeTransparentColor.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "transparent_color")}:";
+			labelLinearGaugeMinimum.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "minimum")}:";
+			labelLinearGaugeMaximum.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "maximum")}:";
+			labelLinearGaugeDirectionX.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "direction", "x")}:";
+			labelLinearGaugeDirectionY.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "direction", "y")}:";
+			labelLinearGaugeWidth.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "width")}:";
+			labelLinearGaugeLayer.Text = $@"{Utilities.GetInterfaceString("panel_settings", "linear_gauge", "layer")}:";
+
+			//TODO: Continue implementing translations for the tab below
+			tabPageTimetable.Text = Utilities.GetInterfaceString("panel_settings", "timetable", "name");
+			tabPageTouch.Text = Utilities.GetInterfaceString("panel_settings", "touch", "name");
+			tabPageScreen.Text = Utilities.GetInterfaceString("panel_settings", "screen", "name");
+			tabPagePilotLamp.Text = Utilities.GetInterfaceString("panel_settings", "pilot_lamp", "name");
+			tabPageNeedle.Text = Utilities.GetInterfaceString("panel_settings", "needle", "name");
+			tabPageDigitalNumber.Text = Utilities.GetInterfaceString("panel_settings", "digital_number", "name");
 
 			tabPageAccel.Text = Utilities.GetInterfaceString("acceleration_settings", "name");
 			groupBoxNotch.Text = Utilities.GetInterfaceString("acceleration_settings", "notch");
@@ -424,6 +460,7 @@ namespace TrainEditor2.Views
 			groupBoxCouplerGeneral.Text = Utilities.GetInterfaceString("coupler_settings", "general", "name");
 			labelCouplerMin.Text = $@"{Utilities.GetInterfaceString("coupler_settings", "general", "min")}:";
 			labelCouplerMax.Text = $@"{Utilities.GetInterfaceString("coupler_settings", "general", "max")}:";
+			labelCouplerObject.Text = $@"{Utilities.GetInterfaceString("coupler_settings", "general", "object")}:";
 
 			tabPagePanel.Text = Utilities.GetInterfaceString("panel_settings", "name");
 
